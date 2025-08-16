@@ -10,7 +10,7 @@ namespace Distributed_Caching.Redis
             {
                 ConfigurationOptions conf = new ConfigurationOptions
                 {
-                    EndPoints = { "localhost:6379" },
+                    EndPoints = { "localhost:1453" },
                     User = "yourUsername",
                     Password = "yourPassword"
                 };
